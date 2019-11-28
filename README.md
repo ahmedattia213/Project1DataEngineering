@@ -3303,7 +3303,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_5_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_5_0.png)
 
 
 <h1>Number of Nobel Prizes in each category<h1>
@@ -3319,7 +3319,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_7_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_7_0.png)
 
 
 <h1>Visualization of number of prizes in each country in every category, USA dominance<h1>
@@ -3335,7 +3335,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_9_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_9_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Chemistry category<h1>
@@ -3350,7 +3350,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_11_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_11_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Economics category<h1>
@@ -3365,7 +3365,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_13_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_13_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Literature category<h1>
@@ -3380,7 +3380,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_15_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_15_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Medicine category<h1>
@@ -3395,7 +3395,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_17_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_17_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Peace category<h1>
@@ -3410,7 +3410,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_19_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_19_0.png)
 
 
 <h1>Visualization of number of prizes in each country in Physics category<h1>
@@ -3425,7 +3425,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_21_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_21_0.png)
 
 
 <h1>Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?<h1>
@@ -3447,7 +3447,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_23_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_23_1.png)
 
 
 <h1>Age differences between the whole nobel prize categories<h1>
@@ -3491,7 +3491,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_27_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_27_1.png)
 
 
 <h1>Age differences between the chemistry category<h1>
@@ -3534,7 +3534,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_31_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_31_1.png)
 
 
 <h1>Age differences between the Economics category<h1>
@@ -3576,7 +3576,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_35_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_35_1.png)
 
 
 <h1>Age differences between the Literature  category<h1>
@@ -3618,7 +3618,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_39_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_39_1.png)
 
 
 <h1>Age differences between the Medicine category<h1>
@@ -3660,7 +3660,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_43_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_43_1.png)
 
 
 <h1>Age differences between the Peace category<h1>
@@ -3702,7 +3702,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_47_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_47_1.png)
 
 
 <h1>Age differences between the Physics category<h1>
@@ -3744,7 +3744,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_51_1.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_51_1.png)
 
 
 <h1>Distribution of Age of Winners in each Category using boxplot<h1>
@@ -3759,7 +3759,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_53_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_53_0.png)
 
 
 <h1>Organizations with the largest number of nobel prizes<h1>
@@ -3776,7 +3776,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_55_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_55_0.png)
 
 
 <h1>Oldest nobel prize winners<h1>
@@ -5273,7 +5273,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_65_0.png)
+![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_65_0.png)
 
 
 
