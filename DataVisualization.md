@@ -1161,7 +1161,7 @@ NobelData
 
 
 
-<h1>Creating data frames for each prize category for visualization<h1>
+## Creating data frames for each prize category for visualization
 
 
 ```python
@@ -1174,7 +1174,7 @@ Physics = NobelData[(NobelData.Category == 'Physics')]
 
 ```
 
-<h1>Nobel Prizes by Category from 1901 to 2016<h1>
+## Nobel Prizes by Category from 1901 to 2016
 
 
 ```python
@@ -1191,7 +1191,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_5_0.png)
 
 
-<h1>Number of Nobel Prizes in each category<h1>
+## Number of Nobel Prizes in each category
 
 
 ```python
@@ -1207,7 +1207,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_7_0.png)
 
 
-<h1>Visualization of number of prizes in each country in every category, USA dominance<h1>
+## Visualization of number of prizes in each country in every category, USA dominance
 
 
 ```python
@@ -1223,7 +1223,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_9_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Chemistry category<h1>
+## Visualization of number of prizes in each country in Chemistry category 
 
 
 ```python
@@ -1238,7 +1238,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_11_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Economics category<h1>
+## Visualization of number of prizes in each country in Economics category
 
 
 ```python
@@ -1253,7 +1253,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_13_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Literature category<h1>
+## Visualization of number of prizes in each country in Literature category
 
 
 ```python
@@ -1268,7 +1268,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_15_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Medicine category<h1>
+## Visualization of number of prizes in each country in Medicine category
 
 
 ```python
@@ -1283,7 +1283,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_17_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Peace category<h1>
+## Visualization of number of prizes in each country in Peace category
 
 
 ```python
@@ -1298,7 +1298,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_19_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Physics category<h1>
+## Visualization of number of prizes in each country in Physics category
 
 
 ```python
@@ -1313,7 +1313,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_21_0.png)
 
 
-<h1>Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?<h1>
+## Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?
 
 
 ```python
@@ -1335,7 +1335,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_23_1.png)
 
 
-<h1>Age differences between the whole nobel prize categories<h1>
+## Age differences between the whole nobel prize categories
 
 
 ```python
@@ -1379,7 +1379,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_27_1.png)
 
 
-<h1>Age differences between the chemistry category<h1>
+## Age differences between the chemistry category
 
 
 ```python
@@ -1422,7 +1422,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_31_1.png)
 
 
-<h1>Age differences between the Economics category<h1>
+## Age differences between the Economics category
 
 
 ```python
@@ -1464,7 +1464,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_35_1.png)
 
 
-<h1>Age differences between the Literature  category<h1>
+## Age differences between the Literature  category
 
 
 ```python
@@ -1506,7 +1506,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_39_1.png)
 
 
-<h1>Age differences between the Medicine category<h1>
+## Age differences between the Medicine category
 
 
 ```python
@@ -1548,7 +1548,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_43_1.png)
 
 
-<h1>Age differences between the Peace category<h1>
+## Age differences between the Peace category
 
 
 ```python
@@ -1590,7 +1590,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_47_1.png)
 
 
-<h1>Age differences between the Physics category<h1>
+## Age differences between the Physics category
 
 
 ```python
@@ -1632,7 +1632,7 @@ show()
 ![png](DataVisualization_files/DataVisualization_51_1.png)
 
 
-<h1>Distribution of Age of Winners in each Category using boxplot<h1>
+## Distribution of Age of Winners in each Category using boxplot
 
 
 ```python
@@ -1647,7 +1647,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_53_0.png)
 
 
-<h1>Organizations with the largest number of nobel prizes<h1>
+## Organizations with the largest number of nobel prizes
 
 
 ```python
@@ -1664,7 +1664,7 @@ plt.show()
 ![png](DataVisualization_files/DataVisualization_55_0.png)
 
 
-<h1>Oldest nobel prize winners<h1>
+## Oldest nobel prize winners
 
 
 ```python
@@ -1744,7 +1744,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
 </div>
 
 
-<h1>Youngest nobel prize winners<h1>
+## Youngest nobel prize winners
 
 
 ```python
@@ -1824,7 +1824,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
 </div>
 
 
-<h1>First woman to win the nobel prize<h1>
+## First woman to win the nobel prize
 
 
 ```python
@@ -1873,7 +1873,7 @@ female[['Year','Category','Full Name','Prize']]
 
 
 
-<h1>Repeat laureates<h1>
+## Repeat laureates
 
 
 ```python
@@ -3149,7 +3149,7 @@ repeat
 
 
 
-<h1>EXTRA: age distribution of nobel prize winners among the years using scatterplot<h1>
+## EXTRA: age distribution of nobel prize winners among the years using scatterplot
 
 
 ```python
