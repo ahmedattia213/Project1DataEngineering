@@ -1,3 +1,6 @@
+## Imports and File Read
+
+
 ```python
 import pandas as pd
 import datetime # to handle date/time attributes
@@ -8,7 +11,6 @@ import re # regular expressions :)
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 ```
 
 
@@ -1188,7 +1190,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_5_0.png)
+![png](DataVisualization_files/DataVisualization_6_0.png)
 
 
 ## Number of Nobel Prizes in each category
@@ -1204,7 +1206,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_7_0.png)
+![png](DataVisualization_files/DataVisualization_8_0.png)
 
 
 ## Visualization of number of prizes in each country in every category, USA dominance
@@ -1220,7 +1222,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_9_0.png)
+![png](DataVisualization_files/DataVisualization_10_0.png)
 
 
 ## Visualization of number of prizes in each country in Chemistry category 
@@ -1235,7 +1237,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_11_0.png)
+![png](DataVisualization_files/DataVisualization_12_0.png)
 
 
 ## Visualization of number of prizes in each country in Economics category
@@ -1250,7 +1252,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_13_0.png)
+![png](DataVisualization_files/DataVisualization_14_0.png)
 
 
 ## Visualization of number of prizes in each country in Literature category
@@ -1265,7 +1267,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_15_0.png)
+![png](DataVisualization_files/DataVisualization_16_0.png)
 
 
 ## Visualization of number of prizes in each country in Medicine category
@@ -1280,7 +1282,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_17_0.png)
+![png](DataVisualization_files/DataVisualization_18_0.png)
 
 
 ## Visualization of number of prizes in each country in Peace category
@@ -1295,7 +1297,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_19_0.png)
+![png](DataVisualization_files/DataVisualization_20_0.png)
 
 
 ## Visualization of number of prizes in each country in Physics category
@@ -1310,7 +1312,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_21_0.png)
+![png](DataVisualization_files/DataVisualization_22_0.png)
 
 
 ## Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?
@@ -1332,7 +1334,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_23_1.png)
+![png](DataVisualization_files/DataVisualization_24_1.png)
 
 
 ## Age differences between the whole nobel prize categories
@@ -1376,7 +1378,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_27_1.png)
+![png](DataVisualization_files/DataVisualization_28_1.png)
 
 
 ## Age differences between the chemistry category
@@ -1419,7 +1421,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_31_1.png)
+![png](DataVisualization_files/DataVisualization_32_1.png)
 
 
 ## Age differences between the Economics category
@@ -1461,7 +1463,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_35_1.png)
+![png](DataVisualization_files/DataVisualization_36_1.png)
 
 
 ## Age differences between the Literature  category
@@ -1503,7 +1505,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_39_1.png)
+![png](DataVisualization_files/DataVisualization_40_1.png)
 
 
 ## Age differences between the Medicine category
@@ -1545,7 +1547,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_43_1.png)
+![png](DataVisualization_files/DataVisualization_44_1.png)
 
 
 ## Age differences between the Peace category
@@ -1587,7 +1589,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_47_1.png)
+![png](DataVisualization_files/DataVisualization_48_1.png)
 
 
 ## Age differences between the Physics category
@@ -1629,7 +1631,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_51_1.png)
+![png](DataVisualization_files/DataVisualization_52_1.png)
 
 
 ## Distribution of Age of Winners in each Category using boxplot
@@ -1644,7 +1646,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_53_0.png)
+![png](DataVisualization_files/DataVisualization_54_0.png)
 
 
 ## Organizations with the largest number of nobel prizes
@@ -1661,7 +1663,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_55_0.png)
+![png](DataVisualization_files/DataVisualization_56_0.png)
 
 
 ## Oldest nobel prize winners
@@ -3158,7 +3160,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_65_0.png)
+![png](DataVisualization_files/DataVisualization_66_0.png)
 
 
 
