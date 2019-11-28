@@ -10,13 +10,13 @@ Cleaning part and run each command sequentially, then the dataset would be clean
 and the rest would be visualising the following question which you just run each one
 in any order to be able to visualise the answers for the following questions.
 
-### The most Nobel of Prizes
-### So, who gets the Nobel Prize?
-### USA dominance
-### USA dominance, visualized
-### What is the gender of a typical Nobel Prize winner?
-### The first woman to win the Nobel Prize
-### How old are you when you get the prize?
-### Age differences between prize categories
-### Oldest and youngest winners
-### You get a prize!
+#### The most Nobel of Prizes
+#### So, who gets the Nobel Prize?
+#### USA dominance
+#### USA dominance, visualized
+#### What is the gender of a typical Nobel Prize winner?
+#### The first woman to win the Nobel Prize
+#### How old are you when you get the prize?
+#### Age differences between prize categories
+#### Oldest and youngest winners
+#### You get a prize!
