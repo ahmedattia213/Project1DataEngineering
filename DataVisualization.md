@@ -1,6 +1,3 @@
-## Imports and File Read
-
-
 ```python
 import pandas as pd
 import datetime # to handle date/time attributes
@@ -11,6 +8,7 @@ import re # regular expressions :)
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 ```
 
 
@@ -1190,7 +1188,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_6_0.png)
+![png](DataVisualization_files/DataVisualization_5_0.png)
 
 
 ## Number of Nobel Prizes in each category
@@ -1206,7 +1204,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_8_0.png)
+![png](DataVisualization_files/DataVisualization_7_0.png)
 
 
 ## Visualization of number of prizes in each country in every category, USA dominance
@@ -1222,10 +1220,10 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_10_0.png)
+![png](DataVisualization_files/DataVisualization_9_0.png)
 
 
-## Visualization of number of prizes in each country in Chemistry category 
+## Visualization of number of prizes in each country in Chemistry category
 
 
 ```python
@@ -1237,7 +1235,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_12_0.png)
+![png](DataVisualization_files/DataVisualization_11_0.png)
 
 
 ## Visualization of number of prizes in each country in Economics category
@@ -1252,7 +1250,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_14_0.png)
+![png](DataVisualization_files/DataVisualization_13_0.png)
 
 
 ## Visualization of number of prizes in each country in Literature category
@@ -1267,7 +1265,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_16_0.png)
+![png](DataVisualization_files/DataVisualization_15_0.png)
 
 
 ## Visualization of number of prizes in each country in Medicine category
@@ -1282,7 +1280,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_18_0.png)
+![png](DataVisualization_files/DataVisualization_17_0.png)
 
 
 ## Visualization of number of prizes in each country in Peace category
@@ -1297,7 +1295,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_20_0.png)
+![png](DataVisualization_files/DataVisualization_19_0.png)
 
 
 ## Visualization of number of prizes in each country in Physics category
@@ -1312,7 +1310,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_22_0.png)
+![png](DataVisualization_files/DataVisualization_21_0.png)
 
 
 ## Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?
@@ -1334,7 +1332,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_24_1.png)
+![png](DataVisualization_files/DataVisualization_23_1.png)
 
 
 ## Age differences between the whole nobel prize categories
@@ -1378,7 +1376,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_28_1.png)
+![png](DataVisualization_files/DataVisualization_27_1.png)
 
 
 ## Age differences between the chemistry category
@@ -1401,10 +1399,10 @@ Chemistry['Age Categorical'] = pd.cut(Chemistry['Age'], bins, labels=groupNames)
 
 
 ```python
-Chemistry = Chemistry['Age Categorical'].value_counts()
-print(Chemistry)
+ChemistryAge = Chemistry['Age Categorical'].value_counts()
+print(ChemistryAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(ChemistryAge, labels=ChemistryAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1421,7 +1419,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_32_1.png)
+![png](DataVisualization_files/DataVisualization_31_1.png)
 
 
 ## Age differences between the Economics category
@@ -1443,10 +1441,10 @@ Economics['Age Categorical'] = pd.cut(Economics['Age'], bins, labels=groupNames)
 
 
 ```python
-Economics = Economics['Age Categorical'].value_counts()
-print(Economics)
+EconomicsAge = Economics['Age Categorical'].value_counts()
+print(EconomicsAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(EconomicsAge, labels=EconomicsAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1463,7 +1461,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_36_1.png)
+![png](DataVisualization_files/DataVisualization_35_1.png)
 
 
 ## Age differences between the Literature  category
@@ -1485,10 +1483,10 @@ Literature['Age Categorical'] = pd.cut(Literature['Age'], bins, labels=groupName
 
 
 ```python
-Literature = Literature['Age Categorical'].value_counts()
-print(Literature)
+LiteratureAge = Literature['Age Categorical'].value_counts()
+print(LiteratureAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(LiteratureAge, labels=LiteratureAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1505,7 +1503,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_40_1.png)
+![png](DataVisualization_files/DataVisualization_39_1.png)
 
 
 ## Age differences between the Medicine category
@@ -1527,10 +1525,10 @@ Medicine['Age Categorical'] = pd.cut(Medicine['Age'], bins, labels=groupNames)
 
 
 ```python
-Medicine = Medicine['Age Categorical'].value_counts()
-print(Medicine)
+MedicineAge = Medicine['Age Categorical'].value_counts()
+print(MedicineAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(MedicineAge, labels=MedicineAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1547,7 +1545,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_44_1.png)
+![png](DataVisualization_files/DataVisualization_43_1.png)
 
 
 ## Age differences between the Peace category
@@ -1569,10 +1567,10 @@ Peace['Age Categorical'] = pd.cut(Peace['Age'], bins, labels=groupNames)
 
 
 ```python
-Peace = Peace['Age Categorical'].value_counts()
-print(Peace)
+PeaceAge = Peace['Age Categorical'].value_counts()
+print(PeaceAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(PeaceAge, labels=PeaceAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1589,7 +1587,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_48_1.png)
+![png](DataVisualization_files/DataVisualization_47_1.png)
 
 
 ## Age differences between the Physics category
@@ -1611,10 +1609,10 @@ Physics['Age Categorical'] = pd.cut(Physics['Age'], bins, labels=groupNames)
 
 
 ```python
-Physics = Physics['Age Categorical'].value_counts()
-print(Physics)
+PhysicsAge = Physics['Age Categorical'].value_counts()
+print(PhysicsAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(PhysicsAge, labels=PhysicsAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -1631,7 +1629,7 @@ show()
 
 
 
-![png](DataVisualization_files/DataVisualization_52_1.png)
+![png](DataVisualization_files/DataVisualization_51_1.png)
 
 
 ## Distribution of Age of Winners in each Category using boxplot
@@ -1646,7 +1644,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_54_0.png)
+![png](DataVisualization_files/DataVisualization_53_0.png)
 
 
 ## Organizations with the largest number of nobel prizes
@@ -1663,7 +1661,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_56_0.png)
+![png](DataVisualization_files/DataVisualization_55_0.png)
 
 
 ## Oldest nobel prize winners
@@ -3151,7 +3149,7 @@ repeat
 
 
 
-## EXTRA: age distribution of nobel prize winners among the years using scatterplot
+<h1>EXTRA: age distribution of nobel prize winners among the years using scatterplot<h1>
 
 
 ```python
@@ -3160,7 +3158,7 @@ plt.show()
 ```
 
 
-![png](DataVisualization_files/DataVisualization_66_0.png)
+![png](DataVisualization_files/DataVisualization_65_0.png)
 
 
 
