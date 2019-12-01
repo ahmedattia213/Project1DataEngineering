@@ -2089,7 +2089,6 @@ df.isnull().sum()
     dtype: int64
 
 
-
 ```python
 import pandas as pd
 import datetime # to handle date/time attributes
@@ -5241,7 +5240,7 @@ repeat
 
 
 
-<h1>EXTRA: age distribution of nobel prize winners among the years using scatterplot<h1>
+## EXTRA: age distribution of nobel prize winners among the years using scatterplot
 
 
 ```python
