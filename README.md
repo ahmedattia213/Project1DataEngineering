@@ -2090,29 +2090,6 @@ df.isnull().sum()
 
 
 
-
-```python
-df.to_csv('archiveData_Cleaned.csv')
-```
-
-
-```python
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```python
 import pandas as pd
 import datetime # to handle date/time attributes
@@ -3276,7 +3253,7 @@ NobelData
 
 
 
-<h1>Creating data frames for each prize category for visualization<h1>
+## Creating data frames for each prize category for visualization
 
 
 ```python
@@ -3289,7 +3266,7 @@ Physics = NobelData[(NobelData.Category == 'Physics')]
 
 ```
 
-<h1>Nobel Prizes by Category from 1901 to 2016<h1>
+## Nobel Prizes by Category from 1901 to 2016
 
 
 ```python
@@ -3303,10 +3280,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_5_0.png)
+![png](DataVisualization_files/DataVisualization_5_0.png)
 
 
-<h1>Number of Nobel Prizes in each category<h1>
+## Number of Nobel Prizes in each category
 
 
 ```python
@@ -3319,10 +3296,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_7_0.png)
+![png](DataVisualization_files/DataVisualization_7_0.png)
 
 
-<h1>Visualization of number of prizes in each country in every category, USA dominance<h1>
+## Visualization of number of prizes in each country in every category, USA dominance
 
 
 ```python
@@ -3335,10 +3312,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_9_0.png)
+![png](DataVisualization_files/DataVisualization_9_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Chemistry category<h1>
+## Visualization of number of prizes in each country in Chemistry category
 
 
 ```python
@@ -3350,10 +3327,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_11_0.png)
+![png](DataVisualization_files/DataVisualization_11_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Economics category<h1>
+## Visualization of number of prizes in each country in Economics category
 
 
 ```python
@@ -3365,10 +3342,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_13_0.png)
+![png](DataVisualization_files/DataVisualization_13_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Literature category<h1>
+## Visualization of number of prizes in each country in Literature category
 
 
 ```python
@@ -3380,10 +3357,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_15_0.png)
+![png](DataVisualization_files/DataVisualization_15_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Medicine category<h1>
+## Visualization of number of prizes in each country in Medicine category
 
 
 ```python
@@ -3395,10 +3372,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_17_0.png)
+![png](DataVisualization_files/DataVisualization_17_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Peace category<h1>
+## Visualization of number of prizes in each country in Peace category
 
 
 ```python
@@ -3410,10 +3387,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_19_0.png)
+![png](DataVisualization_files/DataVisualization_19_0.png)
 
 
-<h1>Visualization of number of prizes in each country in Physics category<h1>
+## Visualization of number of prizes in each country in Physics category
 
 
 ```python
@@ -3425,10 +3402,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_21_0.png)
+![png](DataVisualization_files/DataVisualization_21_0.png)
 
 
-<h1>Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?<h1>
+## Pie chart for the whole dataframe gender, which gender is most likely to win a nobel prize?
 
 
 ```python
@@ -3447,10 +3424,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_23_1.png)
+![png](DataVisualization_files/DataVisualization_23_1.png)
 
 
-<h1>Age differences between the whole nobel prize categories<h1>
+## Age differences between the whole nobel prize categories
 
 
 ```python
@@ -3491,10 +3468,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_27_1.png)
+![png](DataVisualization_files/DataVisualization_27_1.png)
 
 
-<h1>Age differences between the chemistry category<h1>
+## Age differences between the chemistry category
 
 
 ```python
@@ -3514,10 +3491,10 @@ Chemistry['Age Categorical'] = pd.cut(Chemistry['Age'], bins, labels=groupNames)
 
 
 ```python
-Chemistry = Chemistry['Age Categorical'].value_counts()
-print(Chemistry)
+ChemistryAge = Chemistry['Age Categorical'].value_counts()
+print(ChemistryAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(ChemistryAge, labels=ChemistryAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3534,10 +3511,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_31_1.png)
+![png](DataVisualization_files/DataVisualization_31_1.png)
 
 
-<h1>Age differences between the Economics category<h1>
+## Age differences between the Economics category
 
 
 ```python
@@ -3556,10 +3533,10 @@ Economics['Age Categorical'] = pd.cut(Economics['Age'], bins, labels=groupNames)
 
 
 ```python
-Economics = Economics['Age Categorical'].value_counts()
-print(Economics)
+EconomicsAge = Economics['Age Categorical'].value_counts()
+print(EconomicsAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(EconomicsAge, labels=EconomicsAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3576,10 +3553,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_35_1.png)
+![png](DataVisualization_files/DataVisualization_35_1.png)
 
 
-<h1>Age differences between the Literature  category<h1>
+## Age differences between the Literature  category
 
 
 ```python
@@ -3598,10 +3575,10 @@ Literature['Age Categorical'] = pd.cut(Literature['Age'], bins, labels=groupName
 
 
 ```python
-Literature = Literature['Age Categorical'].value_counts()
-print(Literature)
+LiteratureAge = Literature['Age Categorical'].value_counts()
+print(LiteratureAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(LiteratureAge, labels=LiteratureAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3618,10 +3595,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_39_1.png)
+![png](DataVisualization_files/DataVisualization_39_1.png)
 
 
-<h1>Age differences between the Medicine category<h1>
+## Age differences between the Medicine category
 
 
 ```python
@@ -3640,10 +3617,10 @@ Medicine['Age Categorical'] = pd.cut(Medicine['Age'], bins, labels=groupNames)
 
 
 ```python
-Medicine = Medicine['Age Categorical'].value_counts()
-print(Medicine)
+MedicineAge = Medicine['Age Categorical'].value_counts()
+print(MedicineAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(MedicineAge, labels=MedicineAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3660,10 +3637,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_43_1.png)
+![png](DataVisualization_files/DataVisualization_43_1.png)
 
 
-<h1>Age differences between the Peace category<h1>
+## Age differences between the Peace category
 
 
 ```python
@@ -3682,10 +3659,10 @@ Peace['Age Categorical'] = pd.cut(Peace['Age'], bins, labels=groupNames)
 
 
 ```python
-Peace = Peace['Age Categorical'].value_counts()
-print(Peace)
+PeaceAge = Peace['Age Categorical'].value_counts()
+print(PeaceAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(PeaceAge, labels=PeaceAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3702,10 +3679,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_47_1.png)
+![png](DataVisualization_files/DataVisualization_47_1.png)
 
 
-<h1>Age differences between the Physics category<h1>
+## Age differences between the Physics category
 
 
 ```python
@@ -3724,10 +3701,10 @@ Physics['Age Categorical'] = pd.cut(Physics['Age'], bins, labels=groupNames)
 
 
 ```python
-Physics = Physics['Age Categorical'].value_counts()
-print(Physics)
+PhysicsAge = Physics['Age Categorical'].value_counts()
+print(PhysicsAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
+pie(PhysicsAge, labels=PhysicsAge.index, autopct='%1.1f%%');
 show()
 ```
 
@@ -3744,10 +3721,10 @@ show()
 
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_51_1.png)
+![png](DataVisualization_files/DataVisualization_51_1.png)
 
 
-<h1>Distribution of Age of Winners in each Category using boxplot<h1>
+## Distribution of Age of Winners in each Category using boxplot
 
 
 ```python
@@ -3759,10 +3736,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_53_0.png)
+![png](DataVisualization_files/DataVisualization_53_0.png)
 
 
-<h1>Organizations with the largest number of nobel prizes<h1>
+## Organizations with the largest number of nobel prizes
 
 
 ```python
@@ -3776,10 +3753,10 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_55_0.png)
+![png](DataVisualization_files/DataVisualization_55_0.png)
 
 
-<h1>Oldest nobel prize winners<h1>
+## Oldest nobel prize winners
 
 
 ```python
@@ -3859,7 +3836,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
 </div>
 
 
-<h1>Youngest nobel prize winners<h1>
+## Youngest nobel prize winners
 
 
 ```python
@@ -3939,7 +3916,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
 </div>
 
 
-<h1>First woman to win the nobel prize<h1>
+## First woman to win the nobel prize
 
 
 ```python
@@ -3988,7 +3965,7 @@ female[['Year','Category','Full Name','Prize']]
 
 
 
-<h1>Repeat laureates<h1>
+## Repeat laureates
 
 
 ```python
@@ -5273,7 +5250,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/ahmedattia213/Project1DataEngineering/blob/master/DataVisualization_files/DataVisualization_65_0.png)
+![png](DataVisualization_files/DataVisualization_65_0.png)
 
 
 
