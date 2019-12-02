@@ -1212,7 +1212,7 @@ plt.show()
 
 ```python
 
-plt.figure(figsize=(12,22))
+plt.figure(figsize=(6,22))
 DataGraph = sns.countplot(y="Birth Country", data=NobelData,
               order=NobelData['Birth Country'].value_counts().index,
               palette='GnBu_d')
@@ -1359,8 +1359,13 @@ NobelData['Age Categorical'] = pd.cut(NobelData['Age'], bins, labels=groupNames)
 NobelAge = NobelData['Age Categorical'].value_counts()
 print(NobelAge)
 
-pie(NobelAge, labels=NobelAge.index, autopct='%1.1f%%');
-show()
+
+
+sns.barplot(x=NobelAge.index,y=NobelAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
+
 ```
 
     60s      270
@@ -1391,8 +1396,8 @@ Chemistry["Age"] = Chemistry["Year"] - Chemistry["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [29, 39, 49, 59, 69, 79, 89,]
+groupNames = ['30s', '40s', '50s', '60s', '70s', '80s']
 Chemistry['Age Categorical'] = pd.cut(Chemistry['Age'], bins, labels=groupNames)
 
 ```
@@ -1402,19 +1407,18 @@ Chemistry['Age Categorical'] = pd.cut(Chemistry['Age'], bins, labels=groupNames)
 ChemistryAge = Chemistry['Age Categorical'].value_counts()
 print(ChemistryAge)
 
-pie(ChemistryAge, labels=ChemistryAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=ChemistryAge.index,y=ChemistryAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
-    50s      61
-    60s      52
-    40s      39
-    70s      24
-    80s       9
-    30s       9
-    90s       0
-    20s       0
-    Teens     0
+    50s    61
+    60s    52
+    40s    39
+    70s    24
+    80s     9
+    30s     9
     Name: Age Categorical, dtype: int64
 
 
@@ -1434,8 +1438,8 @@ Economics["Age"] = Economics["Year"] - Economics["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [49, 59, 69, 79, 89, 100]
+groupNames = ['50s', '60s', '70s', '80s', '90s']
 Economics['Age Categorical'] = pd.cut(Economics['Age'], bins, labels=groupNames)
 ```
 
@@ -1444,19 +1448,17 @@ Economics['Age Categorical'] = pd.cut(Economics['Age'], bins, labels=groupNames)
 EconomicsAge = Economics['Age Categorical'].value_counts()
 print(EconomicsAge)
 
-pie(EconomicsAge, labels=EconomicsAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=EconomicsAge.index,y=EconomicsAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
-    60s      42
-    70s      24
-    50s      12
-    80s       4
-    90s       1
-    40s       0
-    30s       0
-    20s       0
-    Teens     0
+    60s    42
+    70s    24
+    50s    12
+    80s     4
+    90s     1
     Name: Age Categorical, dtype: int64
 
 
@@ -1476,8 +1478,8 @@ Literature["Age"] = Literature["Year"] - Literature["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [39, 49, 59, 69, 79, 89]
+groupNames = ['40s', '50s', '60s', '70s', '80s']
 Literature['Age Categorical'] = pd.cut(Literature['Age'], bins, labels=groupNames)
 ```
 
@@ -1486,19 +1488,17 @@ Literature['Age Categorical'] = pd.cut(Literature['Age'], bins, labels=groupName
 LiteratureAge = Literature['Age Categorical'].value_counts()
 print(LiteratureAge)
 
-pie(LiteratureAge, labels=LiteratureAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=LiteratureAge.index,y=LiteratureAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
-    60s      37
-    70s      33
-    50s      28
-    40s       9
-    80s       6
-    90s       0
-    30s       0
-    20s       0
-    Teens     0
+    60s    37
+    70s    33
+    50s    28
+    40s     9
+    80s     6
     Name: Age Categorical, dtype: int64
 
 
@@ -1518,8 +1518,8 @@ Medicine["Age"] = Medicine["Year"] - Medicine["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [29, 39, 49, 59, 69, 79, 89]
+groupNames = ['30s', '40s', '50s', '60s', '70s', '80s']
 Medicine['Age Categorical'] = pd.cut(Medicine['Age'], bins, labels=groupNames)
 ```
 
@@ -1528,19 +1528,18 @@ Medicine['Age Categorical'] = pd.cut(Medicine['Age'], bins, labels=groupNames)
 MedicineAge = Medicine['Age Categorical'].value_counts()
 print(MedicineAge)
 
-pie(MedicineAge, labels=MedicineAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=MedicineAge.index,y=MedicineAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
-    50s      74
-    60s      56
-    40s      44
-    70s      31
-    30s      12
-    80s      10
-    90s       0
-    20s       0
-    Teens     0
+    50s    74
+    60s    56
+    40s    44
+    70s    31
+    30s    12
+    80s    10
     Name: Age Categorical, dtype: int64
 
 
@@ -1560,8 +1559,8 @@ Peace["Age"] = Peace["Year"] - Peace["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [0, 29, 39, 49, 59, 69, 79, 89]
+groupNames = ['Teens','30s', '40s', '50s', '60s', '70s', '80s']
 Peace['Age Categorical'] = pd.cut(Peace['Age'], bins, labels=groupNames)
 ```
 
@@ -1570,8 +1569,10 @@ Peace['Age Categorical'] = pd.cut(Peace['Age'], bins, labels=groupNames)
 PeaceAge = Peace['Age Categorical'].value_counts()
 print(PeaceAge)
 
-pie(PeaceAge, labels=PeaceAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=PeaceAge.index,y=PeaceAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
     60s      32
@@ -1581,8 +1582,6 @@ show()
     80s       6
     30s       6
     Teens     1
-    90s       0
-    20s       0
     Name: Age Categorical, dtype: int64
 
 
@@ -1602,8 +1601,8 @@ Physics["Age"] = Physics["Year"] - Physics["Birth Date"]
 
 
 ```python
-bins = [0, 19, 29, 39, 49, 59, 69, 79, 89, 100]
-groupNames = ['Teens', '20s', '30s', '40s', '50s', '60s', '70s', '80s', '90s']
+bins = [19, 29, 39, 49, 59, 69, 79, 89]
+groupNames = ['20s', '30s', '40s', '50s', '60s', '70s', '80s']
 Physics['Age Categorical'] = pd.cut(Physics['Age'], bins, labels=groupNames)
 ```
 
@@ -1612,19 +1611,19 @@ Physics['Age Categorical'] = pd.cut(Physics['Age'], bins, labels=groupNames)
 PhysicsAge = Physics['Age Categorical'].value_counts()
 print(PhysicsAge)
 
-pie(PhysicsAge, labels=PhysicsAge.index, autopct='%1.1f%%');
-show()
+sns.barplot(x=PhysicsAge.index,y=PhysicsAge.values)
+plt.xticks(rotation=90)
+plt.title('Age differences')
+plt.show()
 ```
 
-    40s      57
-    50s      52
-    60s      51
-    70s      25
-    30s      24
-    80s      12
-    20s       1
-    90s       0
-    Teens     0
+    40s    57
+    50s    52
+    60s    51
+    70s    25
+    30s    24
+    80s    12
+    20s     1
     Name: Age Categorical, dtype: int64
 
 
@@ -3149,7 +3148,7 @@ repeat
 
 
 
-<h1>EXTRA: age distribution of nobel prize winners among the years using scatterplot<h1>
+## EXTRA: age distribution of nobel prize winners among the years using scatterplot
 
 
 ```python
