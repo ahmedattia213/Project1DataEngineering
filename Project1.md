@@ -1,3 +1,6 @@
+# Overview
+###### The Nobel Prize is perhaps the world's most well known scientific award. Every year it is given to scientists and scholars in chemistry, literature, physics, medicine, economics, and peace. The first Nobel Prize was handed out in 1901, and at that time the prize was Eurocentric and male-focused, but nowadays it's not biased in any way. Surely, right? Well, we’re going to find out! The Nobel Foundation has made a dataset available of all prize winners from the start of the prize, in 1901, to 2016. Let’s load it in and check it out.
+
 ## Imports
 
 
@@ -8,6 +11,73 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
+
+
+    ---------------------------------------------------------------------------
+
+    KeyboardInterrupt                         Traceback (most recent call last)
+
+    <ipython-input-2-b0f26e7ec31b> in <module>
+          3 import pandas as pd
+          4 import matplotlib.pyplot as plt
+    ----> 5 import seaborn as sns
+    
+
+    ~\Anaconda3\lib\site-packages\seaborn\__init__.py in <module>
+         12 from .distributions import *
+         13 from .timeseries import *
+    ---> 14 from .matrix import *
+         15 from .miscplot import *
+         16 from .axisgrid import *
+    
+
+    ~\Anaconda3\lib\site-packages\seaborn\matrix.py in <module>
+          9 import numpy as np
+         10 import pandas as pd
+    ---> 11 from scipy.cluster import hierarchy
+         12 
+         13 from . import cm
+    
+
+    ~\Anaconda3\lib\site-packages\scipy\cluster\__init__.py in <module>
+         25 __all__ = ['vq', 'hierarchy']
+         26 
+    ---> 27 from . import vq, hierarchy
+         28 
+         29 from scipy._lib._testutils import PytestTester
+    
+
+    ~\Anaconda3\lib\site-packages\scipy\cluster\hierarchy.py in <module>
+        128 
+        129 import numpy as np
+    --> 130 from . import _hierarchy, _optimal_leaf_ordering
+        131 import scipy.spatial.distance as distance
+        132 
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap.py in _find_and_load(name, import_)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap.py in _find_and_load_unlocked(name, import_)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap.py in _find_spec(name, path, target)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap_external.py in find_spec(cls, fullname, path, target)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap_external.py in _get_spec(cls, fullname, path, target)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap_external.py in find_spec(self, fullname, target)
+    
+
+    ~\Anaconda3\lib\importlib\_bootstrap_external.py in _path_stat(path)
+    
+
+    KeyboardInterrupt: 
+
 
 ## Reading Data
 
@@ -62,109 +132,109 @@ df.sample(5)
   </thead>
   <tbody>
     <tr>
-      <th>364</th>
-      <td>1963</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1963</td>
-      <td>"for their discoveries concerning the ionic me...</td>
-      <td>1/3</td>
-      <td>377</td>
+      <th>446</th>
+      <td>1973</td>
+      <td>Economics</td>
+      <td>The Sveriges Riksbank Prize in Economic Scienc...</td>
+      <td>"for the development of the input-output metho...</td>
+      <td>1/1</td>
+      <td>683</td>
       <td>Individual</td>
-      <td>Andrew Fielding Huxley</td>
-      <td>1917-11-22</td>
-      <td>Hampstead</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>University College</td>
-      <td>London</td>
-      <td>United Kingdom</td>
-      <td>2012-05-30</td>
-      <td>Grantchester</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>915</th>
-      <td>2013</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2013</td>
-      <td>"for the development of multiscale models for ...</td>
-      <td>1/3</td>
-      <td>889</td>
-      <td>Individual</td>
-      <td>Martin Karplus</td>
-      <td>1930-03-15</td>
-      <td>Vienna</td>
-      <td>Austria</td>
+      <td>Wassily Leontief</td>
+      <td>1906-08-05</td>
+      <td>St. Petersburg</td>
+      <td>Russia</td>
       <td>Male</td>
       <td>Harvard University</td>
       <td>Cambridge, MA</td>
       <td>United States of America</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <td>1999-02-05</td>
+      <td>New York, NY</td>
+      <td>United States of America</td>
     </tr>
     <tr>
-      <th>499</th>
-      <td>1977</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1977</td>
-      <td>"for their fundamental theoretical investigati...</td>
-      <td>1/3</td>
-      <td>107</td>
-      <td>Individual</td>
-      <td>Philip Warren Anderson</td>
-      <td>1923-12-13</td>
-      <td>Indianapolis, IN</td>
-      <td>United States of America</td>
-      <td>Male</td>
-      <td>Bell Telephone Laboratories</td>
-      <td>Murray Hill, NJ</td>
-      <td>United States of America</td>
+      <th>278</th>
+      <td>1952</td>
+      <td>Peace</td>
+      <td>The Nobel Peace Prize 1952</td>
       <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>661</th>
-      <td>1994</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1994</td>
-      <td>"for his contribution to carbocation chemistry"</td>
       <td>1/1</td>
-      <td>280</td>
+      <td>513</td>
       <td>Individual</td>
-      <td>George A. Olah</td>
-      <td>1927-05-22</td>
-      <td>Budapest</td>
-      <td>Hungary</td>
+      <td>Albert Schweitzer</td>
+      <td>1875-01-14</td>
+      <td>Kaysersberg</td>
+      <td>Germany (France)</td>
       <td>Male</td>
-      <td>University of Southern California</td>
-      <td>Los Angeles, CA</td>
-      <td>United States of America</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
+      <td>1965-09-04</td>
+      <td>Lambaréné</td>
+      <td>Gabon</td>
     </tr>
     <tr>
-      <th>300</th>
-      <td>1955</td>
+      <th>606</th>
+      <td>1988</td>
       <td>Literature</td>
-      <td>The Nobel Prize in Literature 1955</td>
-      <td>"for his vivid epic power which has renewed th...</td>
+      <td>The Nobel Prize in Literature 1988</td>
+      <td>"who, through works rich in nuance - now clear...</td>
       <td>1/1</td>
-      <td>626</td>
+      <td>665</td>
       <td>Individual</td>
-      <td>Halldór Kiljan Laxness</td>
-      <td>1902-04-23</td>
-      <td>Reykjavik</td>
-      <td>Iceland</td>
+      <td>Naguib Mahfouz</td>
+      <td>1911-12-11</td>
+      <td>Cairo</td>
+      <td>Egypt</td>
       <td>Male</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>1998-02-08</td>
-      <td>Reykjavik</td>
-      <td>Iceland</td>
+      <td>2006-08-30</td>
+      <td>Cairo</td>
+      <td>Egypt</td>
+    </tr>
+    <tr>
+      <th>675</th>
+      <td>1995</td>
+      <td>Chemistry</td>
+      <td>The Nobel Prize in Chemistry 1995</td>
+      <td>"for their work in atmospheric chemistry, part...</td>
+      <td>1/3</td>
+      <td>283</td>
+      <td>Individual</td>
+      <td>F. Sherwood Rowland</td>
+      <td>1927-06-28</td>
+      <td>Delaware, OH</td>
+      <td>United States of America</td>
+      <td>Male</td>
+      <td>University of California</td>
+      <td>Irvine, CA</td>
+      <td>United States of America</td>
+      <td>2012-03-10</td>
+      <td>Corona del Mar, CA</td>
+      <td>United States of America</td>
+    </tr>
+    <tr>
+      <th>782</th>
+      <td>2003</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 2003</td>
+      <td>"for pioneering contributions to the theory of...</td>
+      <td>1/3</td>
+      <td>766</td>
+      <td>Individual</td>
+      <td>Alexei A. Abrikosov</td>
+      <td>1928-06-25</td>
+      <td>Moscow</td>
+      <td>Union of Soviet Socialist Republics (Russia)</td>
+      <td>Male</td>
+      <td>Argonne National Laboratory</td>
+      <td>Argonne, IL</td>
+      <td>United States of America</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
   </tbody>
 </table>
@@ -174,6 +244,8 @@ df.sample(5)
 
 ## Data Exploration and Cleaning
 
+### How many nobel prizes we have between 1901 and 2016
+
 
 ```python
 print("Shape\n%s Rows \n%s Columns " % (df.shape[0],df.shape[1]))
@@ -182,7 +254,221 @@ print("Shape\n%s Rows \n%s Columns " % (df.shape[0],df.shape[1]))
     Shape
     969 Rows 
     18 Columns 
+    
 
+### How many male nobel prizes and how many female nobel prizes
+
+
+```python
+df1 = df.groupby(['Sex']).size()
+print (df1)
+```
+
+    Sex
+    Female     50
+    Male      893
+    dtype: int64
+    
+
+## Different nationalities winning the nobel prize
+
+
+```python
+df2 =  df.groupby("Birth Country").agg('size')
+
+print(df2.sort_values( ascending=False))
+
+```
+
+    Birth Country
+    United States of America                  276
+    United Kingdom                             88
+    Germany                                    70
+    France                                     53
+    Sweden                                     30
+                                             ... 
+    Ottoman Empire (Republic of Macedonia)      1
+    Ottoman Empire (Turkey)                     1
+    Pakistan                                    1
+    Persia (Iran)                               1
+    Java, Dutch East Indies (Indonesia)         1
+    Length: 121, dtype: int64
+    
+
+### From the previous group by we can conclude that the USA dominates in the noble prizes birth country as there is 276 nobel prize holder from USA
+
+### Calculate the proption of female lauretes per decade
+
+
+```python
+df3=df[df["Sex"] == "Female"].groupby("Year").size()
+print(df3)
+```
+
+    Year
+    1903    1
+    1905    1
+    1909    1
+    1911    1
+    1926    1
+    1928    1
+    1931    1
+    1935    1
+    1938    1
+    1945    1
+    1946    1
+    1947    1
+    1963    1
+    1964    1
+    1966    1
+    1976    2
+    1977    1
+    1979    1
+    1982    1
+    1983    1
+    1986    1
+    1988    1
+    1991    2
+    1992    1
+    1993    1
+    1995    1
+    1996    1
+    1997    1
+    2003    1
+    2004    3
+    2007    1
+    2008    1
+    2009    6
+    2011    3
+    2013    1
+    2014    2
+    2015    2
+    dtype: int64
+    
+
+### Calculate the proption of female lauretes per category
+
+
+```python
+df4=df[df["Sex"] == "Female"].groupby("Category").size()
+print(df4)
+```
+
+    Category
+    Chemistry      4
+    Economics      2
+    Literature    14
+    Medicine      12
+    Peace         16
+    Physics        2
+    dtype: int64
+    
+
+### The first woman to win the Nobel Prize
+
+
+
+```python
+s=df[df["Sex"] == "Female"]
+s2=s.sort_values(by=['Year'])
+s3=s2.nsmallest(1,'Year')
+s3
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Year</th>
+      <th>Category</th>
+      <th>Prize</th>
+      <th>Motivation</th>
+      <th>Prize Share</th>
+      <th>Laureate ID</th>
+      <th>Laureate Type</th>
+      <th>Full Name</th>
+      <th>Birth Date</th>
+      <th>Birth City</th>
+      <th>Birth Country</th>
+      <th>Sex</th>
+      <th>Organization Name</th>
+      <th>Organization City</th>
+      <th>Organization Country</th>
+      <th>Death Date</th>
+      <th>Death City</th>
+      <th>Death Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>19</th>
+      <td>1903</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 1903</td>
+      <td>"in recognition of the extraordinary services ...</td>
+      <td>1/4</td>
+      <td>6</td>
+      <td>Individual</td>
+      <td>Marie Curie, née Sklodowska</td>
+      <td>1867-11-07</td>
+      <td>Warsaw</td>
+      <td>Russian Empire (Poland)</td>
+      <td>Female</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>1934-07-04</td>
+      <td>Sallanches</td>
+      <td>France</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+### Who won the nobel prize more than once?
+
+
+```python
+df5=  df.groupby("Full Name").agg('size')
+print(df5.sort_values( ascending=False))
+
+```
+
+    Full Name
+    Jack W. Szostak                                                                      3
+    Comité international de la Croix Rouge (International Committee of the Red Cross)    3
+    Randy W. Schekman                                                                    2
+    Robert J. Lefkowitz                                                                  2
+    Roderick MacKinnon                                                                   2
+                                                                                        ..
+    National Dialogue Quartet                                                            1
+    Naguib Mahfouz                                                                       1
+    Nadine Gordimer                                                                      1
+    Médecins Sans Frontières                                                             1
+    A. Michael Spence                                                                    1
+    Length: 904, dtype: int64
+    
+
+### To Know the number of entries and the columns
 
 
 ```python
@@ -211,8 +497,10 @@ df.info()
     Death City              599 non-null object
     Death Country           605 non-null object
     dtypes: int64(2), object(16)
-    memory usage: 136.3+ KB
+    memory usage: 136.4+ KB
+    
 
+### Checking how many null values for each column
 
 
 ```python
@@ -244,6 +532,8 @@ df.isnull().sum()
 
 
 
+### What are the values for the Laureate Type
+
 
 ```python
 pd.unique(df["Laureate Type"])
@@ -255,6 +545,8 @@ pd.unique(df["Laureate Type"])
     array(['Individual', 'Organization'], dtype=object)
 
 
+
+### Number of Cells having Laureate type = Organization
 
 
 ```python
@@ -976,7 +1268,7 @@ print("Shape\n%s Rows \n%s Columns " % (k.shape[0],k.shape[1]))
     Shape
     30 Rows 
     18 Columns 
-
+    
 
 ## Cleaning 
 
@@ -992,7 +1284,7 @@ df[df["Full Name"] == "Paul Ehrlich"]
 
     969
     904
-
+    
 
 
 
@@ -1113,104 +1405,104 @@ df.sample(5)
   </thead>
   <tbody>
     <tr>
-      <th>626</th>
-      <td>1990</td>
-      <td>Economics</td>
-      <td>The Sveriges Riksbank Prize in Economic Scienc...</td>
-      <td>1/3</td>
-      <td>705</td>
+      <th>572</th>
+      <td>1985</td>
+      <td>Chemistry</td>
+      <td>The Nobel Prize in Chemistry 1985</td>
+      <td>1/2</td>
+      <td>262</td>
       <td>Individual</td>
-      <td>Merton H. Miller</td>
-      <td>1923-05-16</td>
-      <td>Boston, MA</td>
+      <td>Herbert A. Hauptman</td>
+      <td>1917-02-14</td>
+      <td>New York, NY</td>
       <td>United States of America</td>
       <td>Male</td>
-      <td>University of Chicago</td>
-      <td>Chicago, IL</td>
+      <td>The Medical Foundation of Buffalo</td>
+      <td>Buffalo, NY</td>
       <td>United States of America</td>
-      <td>2000-06-03</td>
-      <td>Chicago, IL</td>
+      <td>2011-10-23</td>
+      <td>Buffalo, NY</td>
       <td>United States of America</td>
     </tr>
     <tr>
-      <th>408</th>
-      <td>1969</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1969</td>
-      <td>1/2</td>
-      <td>237</td>
+      <th>432</th>
+      <td>1971</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 1971</td>
+      <td>1/1</td>
+      <td>93</td>
       <td>Individual</td>
-      <td>Derek H. R. Barton</td>
-      <td>1918-09-08</td>
-      <td>Gravesend</td>
-      <td>United Kingdom</td>
+      <td>Dennis Gabor</td>
+      <td>1900-06-05</td>
+      <td>Budapest</td>
+      <td>Hungary</td>
       <td>Male</td>
       <td>Imperial College</td>
       <td>London</td>
       <td>United Kingdom</td>
-      <td>1998-03-16</td>
-      <td>College Station, TX</td>
+      <td>1979-02-08</td>
+      <td>London</td>
+      <td>United Kingdom</td>
+    </tr>
+    <tr>
+      <th>238</th>
+      <td>1946</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 1946</td>
+      <td>1/1</td>
+      <td>51</td>
+      <td>Individual</td>
+      <td>Percy Williams Bridgman</td>
+      <td>1882-04-21</td>
+      <td>Cambridge, MA</td>
+      <td>United States of America</td>
+      <td>Male</td>
+      <td>Harvard University</td>
+      <td>Cambridge, MA</td>
+      <td>United States of America</td>
+      <td>1961-08-20</td>
+      <td>Randolph, NH</td>
       <td>United States of America</td>
     </tr>
     <tr>
-      <th>531</th>
-      <td>1980</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1980</td>
-      <td>1/3</td>
-      <td>420</td>
+      <th>545</th>
+      <td>1981</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 1981</td>
+      <td>1/4</td>
+      <td>119</td>
       <td>Individual</td>
-      <td>Jean Dausset</td>
-      <td>1916-10-19</td>
-      <td>Toulouse</td>
-      <td>France</td>
+      <td>Arthur Leonard Schawlow</td>
+      <td>1921-05-05</td>
+      <td>Mount Verno, NY</td>
+      <td>United States of America</td>
       <td>Male</td>
-      <td>Université de Paris, Laboratoire Immuno-Hémato...</td>
-      <td>Paris</td>
-      <td>France</td>
-      <td>2009-06-06</td>
-      <td>Palma, Majorca</td>
-      <td>Spain</td>
+      <td>Stanford University</td>
+      <td>Stanford, CA</td>
+      <td>United States of America</td>
+      <td>1999-04-28</td>
+      <td>Palo Alto, CA</td>
+      <td>United States of America</td>
     </tr>
     <tr>
-      <th>416</th>
-      <td>1969</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1969</td>
-      <td>1/1</td>
-      <td>527</td>
-      <td>Organization</td>
-      <td>International Labour Organization (I.L.O.)</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>955</th>
-      <td>2015</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 2015</td>
-      <td>1/1</td>
-      <td>925</td>
-      <td>Organization</td>
-      <td>National Dialogue Quartet</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
+      <th>126</th>
+      <td>1925</td>
+      <td>Physics</td>
+      <td>The Nobel Prize in Physics 1925</td>
+      <td>1/2</td>
+      <td>30</td>
+      <td>Individual</td>
+      <td>James Franck</td>
+      <td>1882-08-26</td>
+      <td>Hamburg</td>
+      <td>Germany</td>
+      <td>Male</td>
+      <td>Goettingen University</td>
+      <td>Göttingen</td>
+      <td>Germany</td>
+      <td>1964-05-21</td>
+      <td>Göttingen</td>
+      <td>West Germany (Germany)</td>
     </tr>
   </tbody>
 </table>
@@ -1233,12 +1525,12 @@ k = l[l["Birth Date"].notnull()]
 k
 ```
 
-    /Users/mac/anaconda3/lib/python3.7/site-packages/ipykernel_launcher.py:4: SettingWithCopyWarning: 
+    C:\Users\Administrator\Anaconda3\lib\site-packages\ipykernel_launcher.py:4: SettingWithCopyWarning: 
     A value is trying to be set on a copy of a slice from a DataFrame
     
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
       after removing the cwd from sys.path.
-
+    
 
 
 
@@ -1296,9 +1588,9 @@ k
 ```
 
     Shape
-    26 Rows 
+    23 Rows 
     17 Columns 
-
+    
 
 
 
@@ -1422,26 +1714,6 @@ k
       <td>NaN</td>
     </tr>
     <tr>
-      <th>222</th>
-      <td>1944</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1944</td>
-      <td>1/1</td>
-      <td>482</td>
-      <td>Organization</td>
-      <td>Comité international de la Croix Rouge (Intern...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
       <th>244</th>
       <td>1947</td>
       <td>Peace</td>
@@ -1490,26 +1762,6 @@ k
       <td>515</td>
       <td>Organization</td>
       <td>Office of the United Nations High Commissioner...</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>365</th>
-      <td>1963</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1963</td>
-      <td>1/2</td>
-      <td>482</td>
-      <td>Organization</td>
-      <td>Comité international de la Croix Rouge (Intern...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -1590,26 +1842,6 @@ k
       <td>537</td>
       <td>Organization</td>
       <td>Amnesty International</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>543</th>
-      <td>1981</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1981</td>
-      <td>1/1</td>
-      <td>515</td>
-      <td>Organization</td>
-      <td>Office of the United Nations High Commissioner...</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -1880,12 +2112,12 @@ df.isnull().sum()
 ```
 
     Shape
-    969 Rows 
+    904 Rows 
     17 Columns 
     Shape
-    943 Rows 
+    881 Rows 
     17 Columns 
-
+    
 
 
 
@@ -1897,16 +2129,16 @@ df.isnull().sum()
     Laureate ID               0
     Laureate Type             0
     Full Name                 0
-    Birth Date                3
+    Birth Date                2
     Birth City                2
     Birth Country             0
     Sex                       0
-    Organization Name       221
-    Organization City       227
-    Organization Country    227
-    Death Date              326
-    Death City              344
-    Death Country           338
+    Organization Name       220
+    Organization City       218
+    Organization Country    218
+    Death Date              292
+    Death City              309
+    Death Country           303
     dtype: int64
 
 
@@ -1932,13 +2164,13 @@ df.isnull().sum()
     Laureate ID               0
     Laureate Type             0
     Full Name                 0
-    Birth Date                3
+    Birth Date                2
     Birth City                2
     Birth Country             0
     Sex                       0
-    Organization Name       221
-    Organization City       227
-    Organization Country    227
+    Organization Name       220
+    Organization City       218
+    Organization Country    218
     dtype: int64
 
 
@@ -1969,9 +2201,9 @@ df.isnull().sum()
     Birth City                0
     Birth Country             0
     Sex                       0
-    Organization Name         0
-    Organization City         0
-    Organization Country    213
+    Organization Name       220
+    Organization City       218
+    Organization Country    218
     dtype: int64
 
 

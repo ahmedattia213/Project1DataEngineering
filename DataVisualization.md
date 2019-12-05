@@ -147,456 +147,6 @@ NobelData
       <td>Self</td>
     </tr>
     <tr>
-      <th>5</th>
-      <td>5</td>
-      <td>1901</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1901</td>
-      <td>1/1</td>
-      <td>1</td>
-      <td>Individual</td>
-      <td>Wilhelm Conrad Röntgen</td>
-      <td>1845-03-27</td>
-      <td>Lennep (Remscheid)</td>
-      <td>Prussia (Germany)</td>
-      <td>Male</td>
-      <td>Munich University</td>
-      <td>Munich</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>6</td>
-      <td>1902</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1902</td>
-      <td>1/1</td>
-      <td>161</td>
-      <td>Individual</td>
-      <td>Hermann Emil Fischer</td>
-      <td>1852-10-09</td>
-      <td>Euskirchen</td>
-      <td>Prussia (Germany)</td>
-      <td>Male</td>
-      <td>Berlin University</td>
-      <td>Berlin</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>7</td>
-      <td>1902</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 1902</td>
-      <td>1/1</td>
-      <td>571</td>
-      <td>Individual</td>
-      <td>Christian Matthias Theodor Mommsen</td>
-      <td>1817-11-30</td>
-      <td>Garding</td>
-      <td>Schleswig (Germany)</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>8</td>
-      <td>1902</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1902</td>
-      <td>1/1</td>
-      <td>294</td>
-      <td>Individual</td>
-      <td>Ronald Ross</td>
-      <td>1857-05-13</td>
-      <td>Almora</td>
-      <td>India</td>
-      <td>Male</td>
-      <td>University College</td>
-      <td>Liverpool</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>9</td>
-      <td>1902</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1902</td>
-      <td>1/2</td>
-      <td>464</td>
-      <td>Individual</td>
-      <td>Élie Ducommun</td>
-      <td>1833-02-19</td>
-      <td>Geneva</td>
-      <td>Switzerland</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>10</td>
-      <td>1902</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1902</td>
-      <td>1/2</td>
-      <td>465</td>
-      <td>Individual</td>
-      <td>Charles Albert Gobat</td>
-      <td>1843-05-21</td>
-      <td>Tramelan</td>
-      <td>Switzerland</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>11</td>
-      <td>1902</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1902</td>
-      <td>1/2</td>
-      <td>2</td>
-      <td>Individual</td>
-      <td>Hendrik Antoon Lorentz</td>
-      <td>1853-07-18</td>
-      <td>Arnhem</td>
-      <td>Netherlands</td>
-      <td>Male</td>
-      <td>Leiden University</td>
-      <td>Leiden</td>
-      <td>Netherlands</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>12</td>
-      <td>1902</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1902</td>
-      <td>1/2</td>
-      <td>3</td>
-      <td>Individual</td>
-      <td>Pieter Zeeman</td>
-      <td>1865-05-25</td>
-      <td>Zonnemaire</td>
-      <td>Netherlands</td>
-      <td>Male</td>
-      <td>Amsterdam University</td>
-      <td>Amsterdam</td>
-      <td>Netherlands</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>13</td>
-      <td>1903</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1903</td>
-      <td>1/1</td>
-      <td>162</td>
-      <td>Individual</td>
-      <td>Svante August Arrhenius</td>
-      <td>1859-02-19</td>
-      <td>Vik</td>
-      <td>Sweden</td>
-      <td>Male</td>
-      <td>Stockholm University</td>
-      <td>Stockholm</td>
-      <td>Sweden</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>14</td>
-      <td>1903</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 1903</td>
-      <td>1/1</td>
-      <td>572</td>
-      <td>Individual</td>
-      <td>Bjørnstjerne Martinus Bjørnson</td>
-      <td>1832-12-08</td>
-      <td>Kvikne</td>
-      <td>Norway</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>15</td>
-      <td>1903</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1903</td>
-      <td>1/1</td>
-      <td>295</td>
-      <td>Individual</td>
-      <td>Niels Ryberg Finsen</td>
-      <td>1860-12-15</td>
-      <td>Thorshavn</td>
-      <td>Faroe Islands (Denmark)</td>
-      <td>Male</td>
-      <td>Finsen Medical Light Institute</td>
-      <td>Copenhagen</td>
-      <td>Denmark</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>16</td>
-      <td>1903</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1903</td>
-      <td>1/1</td>
-      <td>466</td>
-      <td>Individual</td>
-      <td>William Randal Cremer</td>
-      <td>1828-03-18</td>
-      <td>Fareham</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>17</td>
-      <td>1903</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1903</td>
-      <td>1/2</td>
-      <td>4</td>
-      <td>Individual</td>
-      <td>Antoine Henri Becquerel</td>
-      <td>1852-12-15</td>
-      <td>Paris</td>
-      <td>France</td>
-      <td>Male</td>
-      <td>École Polytechnique</td>
-      <td>Paris</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>18</td>
-      <td>1903</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1903</td>
-      <td>1/4</td>
-      <td>5</td>
-      <td>Individual</td>
-      <td>Pierre Curie</td>
-      <td>1859-05-15</td>
-      <td>Paris</td>
-      <td>France</td>
-      <td>Male</td>
-      <td>École municipale de physique et de chimie indu...</td>
-      <td>Paris</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>19</td>
-      <td>1903</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1903</td>
-      <td>1/4</td>
-      <td>6</td>
-      <td>Individual</td>
-      <td>Marie Curie, née Sklodowska</td>
-      <td>1867-11-07</td>
-      <td>Warsaw</td>
-      <td>Russian Empire (Poland)</td>
-      <td>Female</td>
-      <td>self</td>
-      <td>self</td>
-      <td>self</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>20</td>
-      <td>1904</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1904</td>
-      <td>1/1</td>
-      <td>163</td>
-      <td>Individual</td>
-      <td>Sir William Ramsay</td>
-      <td>1852-10-02</td>
-      <td>Glasgow</td>
-      <td>Scotland</td>
-      <td>Male</td>
-      <td>University College</td>
-      <td>London</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>21</td>
-      <td>1904</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 1904</td>
-      <td>1/2</td>
-      <td>573</td>
-      <td>Individual</td>
-      <td>Frédéric Mistral</td>
-      <td>1830-09-08</td>
-      <td>Maillane</td>
-      <td>France</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>22</td>
-      <td>1904</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 1904</td>
-      <td>1/2</td>
-      <td>574</td>
-      <td>Individual</td>
-      <td>José Echegaray y Eizaguirre</td>
-      <td>1832-04-19</td>
-      <td>Madrid</td>
-      <td>Spain</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>23</td>
-      <td>1904</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1904</td>
-      <td>1/1</td>
-      <td>296</td>
-      <td>Individual</td>
-      <td>Ivan Petrovich Pavlov</td>
-      <td>1849-09-14</td>
-      <td>Ryazan</td>
-      <td>Russia</td>
-      <td>Male</td>
-      <td>Military Medical Academy</td>
-      <td>St. Petersburg</td>
-      <td>Russia</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>25</td>
-      <td>1904</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1904</td>
-      <td>1/1</td>
-      <td>8</td>
-      <td>Individual</td>
-      <td>Lord Rayleigh (John William Strutt)</td>
-      <td>1842-11-12</td>
-      <td>Langford Grove, Maldon, Essex</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>Royal Institution of Great Britain</td>
-      <td>London</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>26</td>
-      <td>1905</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 1905</td>
-      <td>1/1</td>
-      <td>164</td>
-      <td>Individual</td>
-      <td>Johann Friedrich Wilhelm Adolf von Baeyer</td>
-      <td>1835-10-31</td>
-      <td>Berlin</td>
-      <td>Prussia (Germany)</td>
-      <td>Male</td>
-      <td>Munich University</td>
-      <td>Munich</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>27</td>
-      <td>1905</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 1905</td>
-      <td>1/1</td>
-      <td>575</td>
-      <td>Individual</td>
-      <td>Henryk Sienkiewicz</td>
-      <td>1846-05-05</td>
-      <td>Wola Okrzejska</td>
-      <td>Poland</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>28</td>
-      <td>1905</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 1905</td>
-      <td>1/1</td>
-      <td>297</td>
-      <td>Individual</td>
-      <td>Robert Koch</td>
-      <td>1843-12-11</td>
-      <td>Clausthal (Clausthal-Zellerfeld)</td>
-      <td>Germany</td>
-      <td>Male</td>
-      <td>Institute for Infectious Diseases</td>
-      <td>Berlin</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>29</td>
-      <td>1905</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 1905</td>
-      <td>1/1</td>
-      <td>468</td>
-      <td>Individual</td>
-      <td>Baroness Bertha Sophie Felicita von Suttner, n...</td>
-      <td>1843-06-09</td>
-      <td>Prague</td>
-      <td>Austrian Empire (Czech Republic)</td>
-      <td>Female</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>30</td>
-      <td>1905</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 1905</td>
-      <td>1/1</td>
-      <td>9</td>
-      <td>Individual</td>
-      <td>Philipp Eduard Anton von Lenard</td>
-      <td>1862-06-07</td>
-      <td>Pressburg (Bratislava)</td>
-      <td>Hungary (Slovakia)</td>
-      <td>Male</td>
-      <td>Kiel University</td>
-      <td>Kiel</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
       <th>...</th>
       <td>...</td>
       <td>...</td>
@@ -615,457 +165,7 @@ NobelData
       <td>...</td>
     </tr>
     <tr>
-      <th>913</th>
-      <td>938</td>
-      <td>2014</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 2014</td>
-      <td>1/4</td>
-      <td>905</td>
-      <td>Individual</td>
-      <td>Edvard I. Moser</td>
-      <td>1962-04-27</td>
-      <td>Ålesund</td>
-      <td>Norway</td>
-      <td>Male</td>
-      <td>Norwegian University of Science and Technology...</td>
-      <td>Trondheim</td>
-      <td>Norway</td>
-    </tr>
-    <tr>
-      <th>914</th>
-      <td>939</td>
-      <td>2014</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 2014</td>
-      <td>1/2</td>
-      <td>913</td>
-      <td>Individual</td>
-      <td>Kailash Satyarthi</td>
-      <td>1954-01-11</td>
-      <td>Vidisha</td>
-      <td>India</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>915</th>
-      <td>940</td>
-      <td>2014</td>
-      <td>Peace</td>
-      <td>The Nobel Peace Prize 2014</td>
-      <td>1/2</td>
-      <td>914</td>
-      <td>Individual</td>
-      <td>Malala Yousafzai</td>
-      <td>1997-07-12</td>
-      <td>Mingora</td>
-      <td>Pakistan</td>
-      <td>Female</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>916</th>
-      <td>941</td>
-      <td>2014</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2014</td>
-      <td>1/3</td>
-      <td>906</td>
-      <td>Individual</td>
-      <td>Isamu Akasaki</td>
-      <td>1929-01-30</td>
-      <td>Chiran</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>Meijo University</td>
-      <td>Nagoya</td>
-      <td>Japan</td>
-    </tr>
-    <tr>
-      <th>917</th>
-      <td>942</td>
-      <td>2014</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2014</td>
-      <td>1/3</td>
-      <td>906</td>
-      <td>Individual</td>
-      <td>Isamu Akasaki</td>
-      <td>1929-01-30</td>
-      <td>Chiran</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>Nagoya University</td>
-      <td>Nagoya</td>
-      <td>Japan</td>
-    </tr>
-    <tr>
-      <th>918</th>
-      <td>943</td>
-      <td>2014</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2014</td>
-      <td>1/3</td>
-      <td>907</td>
-      <td>Individual</td>
-      <td>Hiroshi Amano</td>
-      <td>1960-09-11</td>
-      <td>Hamamatsu</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>Nagoya University</td>
-      <td>Nagoya</td>
-      <td>Japan</td>
-    </tr>
-    <tr>
-      <th>919</th>
-      <td>944</td>
-      <td>2014</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2014</td>
-      <td>1/3</td>
-      <td>908</td>
-      <td>Individual</td>
-      <td>Shuji Nakamura</td>
-      <td>1954-05-22</td>
-      <td>Ikata</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>University of California</td>
-      <td>Santa Barbara, CA</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>920</th>
-      <td>945</td>
-      <td>2015</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2015</td>
-      <td>1/3</td>
-      <td>921</td>
-      <td>Individual</td>
-      <td>Tomas Lindahl</td>
-      <td>1938-01-28</td>
-      <td>Stockholm</td>
-      <td>Sweden</td>
-      <td>Male</td>
-      <td>Francis Crick Institute</td>
-      <td>Hertfordshire</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>921</th>
-      <td>946</td>
-      <td>2015</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2015</td>
-      <td>1/3</td>
-      <td>921</td>
-      <td>Individual</td>
-      <td>Tomas Lindahl</td>
-      <td>1938-01-28</td>
-      <td>Stockholm</td>
-      <td>Sweden</td>
-      <td>Male</td>
-      <td>Clare Hall Laboratory</td>
-      <td>Hertfordshire</td>
-      <td>United Kingdom</td>
-    </tr>
-    <tr>
-      <th>922</th>
-      <td>947</td>
-      <td>2015</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2015</td>
-      <td>1/3</td>
-      <td>922</td>
-      <td>Individual</td>
-      <td>Paul Modrich</td>
-      <td>1946-06-13</td>
-      <td>Raton, NM</td>
-      <td>United States of America</td>
-      <td>Male</td>
-      <td>Howard Hughes Medical Institute</td>
-      <td>Durham, NC</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>923</th>
-      <td>948</td>
-      <td>2015</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2015</td>
-      <td>1/3</td>
-      <td>922</td>
-      <td>Individual</td>
-      <td>Paul Modrich</td>
-      <td>1946-06-13</td>
-      <td>Raton, NM</td>
-      <td>United States of America</td>
-      <td>Male</td>
-      <td>Duke University School of Medicine</td>
-      <td>Durham, NC</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>924</th>
-      <td>949</td>
-      <td>2015</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2015</td>
-      <td>1/3</td>
-      <td>923</td>
-      <td>Individual</td>
-      <td>Aziz Sancar</td>
-      <td>1946-09-08</td>
-      <td>Savur</td>
-      <td>Turkey</td>
-      <td>Male</td>
-      <td>University of North Carolina</td>
-      <td>Chapel Hill, NC</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>925</th>
-      <td>950</td>
-      <td>2015</td>
-      <td>Economics</td>
-      <td>The Sveriges Riksbank Prize in Economic Scienc...</td>
-      <td>1/1</td>
-      <td>926</td>
-      <td>Individual</td>
-      <td>Angus Deaton</td>
-      <td>1945-10-19</td>
-      <td>Edinburgh</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>Princeton University</td>
-      <td>Princeton, NJ</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>926</th>
-      <td>951</td>
-      <td>2015</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 2015</td>
-      <td>1/1</td>
-      <td>924</td>
-      <td>Individual</td>
-      <td>Svetlana Alexievich</td>
-      <td>1948-05-31</td>
-      <td>Ivano-Frankivsk</td>
-      <td>Ukraine</td>
-      <td>Female</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>927</th>
-      <td>952</td>
-      <td>2015</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 2015</td>
-      <td>1/4</td>
-      <td>916</td>
-      <td>Individual</td>
-      <td>William C. Campbell</td>
-      <td>1930-06-28</td>
-      <td>Ramelton</td>
-      <td>Ireland</td>
-      <td>Male</td>
-      <td>Drew University</td>
-      <td>Madison, NJ</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>928</th>
-      <td>953</td>
-      <td>2015</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 2015</td>
-      <td>1/4</td>
-      <td>917</td>
-      <td>Individual</td>
-      <td>Satoshi Ōmura</td>
-      <td>1935-07-12</td>
-      <td>Yamanashi Prefecture</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>Kitasato University</td>
-      <td>Tokyo</td>
-      <td>Japan</td>
-    </tr>
-    <tr>
-      <th>929</th>
-      <td>954</td>
-      <td>2015</td>
-      <td>Medicine</td>
-      <td>The Nobel Prize in Physiology or Medicine 2015</td>
-      <td>1/2</td>
-      <td>918</td>
-      <td>Individual</td>
-      <td>Youyou Tu</td>
-      <td>1930-12-30</td>
-      <td>Zhejiang Ningbo</td>
-      <td>China</td>
-      <td>Female</td>
-      <td>China Academy of Traditional Chinese Medicine</td>
-      <td>Beijing</td>
-      <td>China</td>
-    </tr>
-    <tr>
-      <th>930</th>
-      <td>956</td>
-      <td>2015</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2015</td>
-      <td>1/2</td>
-      <td>919</td>
-      <td>Individual</td>
-      <td>Takaaki Kajita</td>
-      <td>1959-03-09</td>
-      <td>Higashimatsuyama</td>
-      <td>Japan</td>
-      <td>Male</td>
-      <td>University of Tokyo</td>
-      <td>Kashiwa</td>
-      <td>Japan</td>
-    </tr>
-    <tr>
-      <th>931</th>
-      <td>957</td>
-      <td>2015</td>
-      <td>Physics</td>
-      <td>The Nobel Prize in Physics 2015</td>
-      <td>1/2</td>
-      <td>920</td>
-      <td>Individual</td>
-      <td>Arthur B. McDonald</td>
-      <td>1943-08-29</td>
-      <td>Sydney</td>
-      <td>Canada</td>
-      <td>Male</td>
-      <td>Queen's University</td>
-      <td>Kingston</td>
-      <td>Canada</td>
-    </tr>
-    <tr>
-      <th>932</th>
-      <td>958</td>
-      <td>2016</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2016</td>
-      <td>1/3</td>
-      <td>931</td>
-      <td>Individual</td>
-      <td>Jean-Pierre Sauvage</td>
-      <td>1944-10-21</td>
-      <td>Paris</td>
-      <td>France</td>
-      <td>Male</td>
-      <td>University of Strasbourg</td>
-      <td>Strasbourg</td>
-      <td>France</td>
-    </tr>
-    <tr>
-      <th>933</th>
-      <td>959</td>
-      <td>2016</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2016</td>
-      <td>1/3</td>
-      <td>932</td>
-      <td>Individual</td>
-      <td>Sir J. Fraser Stoddart</td>
-      <td>1942-05-24</td>
-      <td>Edinburgh</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>Northwestern University</td>
-      <td>Evanston, IL</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>934</th>
-      <td>960</td>
-      <td>2016</td>
-      <td>Chemistry</td>
-      <td>The Nobel Prize in Chemistry 2016</td>
-      <td>1/3</td>
-      <td>933</td>
-      <td>Individual</td>
-      <td>Bernard L. Feringa</td>
-      <td>1951-05-18</td>
-      <td>Barger-Compascuum</td>
-      <td>Netherlands</td>
-      <td>Male</td>
-      <td>University of Groningen</td>
-      <td>Groningen</td>
-      <td>Netherlands</td>
-    </tr>
-    <tr>
-      <th>935</th>
-      <td>961</td>
-      <td>2016</td>
-      <td>Economics</td>
-      <td>The Sveriges Riksbank Prize in Economic Scienc...</td>
-      <td>1/2</td>
-      <td>935</td>
-      <td>Individual</td>
-      <td>Oliver Hart</td>
-      <td>1948-10-09</td>
-      <td>London</td>
-      <td>United Kingdom</td>
-      <td>Male</td>
-      <td>Harvard University</td>
-      <td>Cambridge, MA</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>936</th>
-      <td>962</td>
-      <td>2016</td>
-      <td>Economics</td>
-      <td>The Sveriges Riksbank Prize in Economic Scienc...</td>
-      <td>1/2</td>
-      <td>936</td>
-      <td>Individual</td>
-      <td>Bengt Holmström</td>
-      <td>1949-04-18</td>
-      <td>Helsinki</td>
-      <td>Finland</td>
-      <td>Male</td>
-      <td>Massachusetts Institute of Technology (MIT)</td>
-      <td>Cambridge, MA</td>
-      <td>United States of America</td>
-    </tr>
-    <tr>
-      <th>937</th>
-      <td>963</td>
-      <td>2016</td>
-      <td>Literature</td>
-      <td>The Nobel Prize in Literature 2016</td>
-      <td>1/1</td>
-      <td>937</td>
-      <td>Individual</td>
-      <td>Bob Dylan</td>
-      <td>1941-05-24</td>
-      <td>Duluth, MN</td>
-      <td>United States of America</td>
-      <td>Male</td>
-      <td>Self</td>
-      <td>Self</td>
-      <td>Self</td>
-    </tr>
-    <tr>
-      <th>938</th>
+      <th>876</th>
       <td>964</td>
       <td>2016</td>
       <td>Medicine</td>
@@ -1083,7 +183,7 @@ NobelData
       <td>Japan</td>
     </tr>
     <tr>
-      <th>939</th>
+      <th>877</th>
       <td>965</td>
       <td>2016</td>
       <td>Peace</td>
@@ -1101,7 +201,7 @@ NobelData
       <td>Self</td>
     </tr>
     <tr>
-      <th>940</th>
+      <th>878</th>
       <td>966</td>
       <td>2016</td>
       <td>Physics</td>
@@ -1119,7 +219,7 @@ NobelData
       <td>United States of America</td>
     </tr>
     <tr>
-      <th>941</th>
+      <th>879</th>
       <td>967</td>
       <td>2016</td>
       <td>Physics</td>
@@ -1137,7 +237,7 @@ NobelData
       <td>United States of America</td>
     </tr>
     <tr>
-      <th>942</th>
+      <th>880</th>
       <td>968</td>
       <td>2016</td>
       <td>Physics</td>
@@ -1156,7 +256,7 @@ NobelData
     </tr>
   </tbody>
 </table>
-<p>943 rows × 15 columns</p>
+<p>881 rows × 15 columns</p>
 </div>
 
 
@@ -1326,10 +426,10 @@ pie(AllCategoryGender, labels=AllCategoryGender.index, autopct='%1.1f%%');
 show()
 ```
 
-    Male      893
-    Female     50
+    Male      833
+    Female     48
     Name: Sex, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_23_1.png)
@@ -1368,17 +468,17 @@ plt.show()
 
 ```
 
-    60s      270
-    50s      246
-    70s      163
-    40s      163
-    30s       51
-    80s       47
+    60s      248
+    50s      228
+    70s      155
+    40s      155
+    30s       48
+    80s       44
     90s        1
     20s        1
     Teens      1
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_27_1.png)
@@ -1413,14 +513,14 @@ plt.title('Age differences')
 plt.show()
 ```
 
-    50s    61
-    60s    52
-    40s    39
-    70s    24
-    80s     9
-    30s     9
+    50s    57
+    60s    46
+    40s    34
+    70s    22
+    80s     7
+    30s     7
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_31_1.png)
@@ -1454,13 +554,13 @@ plt.title('Age differences')
 plt.show()
 ```
 
-    60s    42
-    70s    24
+    60s    39
+    70s    22
     50s    12
     80s     4
     90s     1
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_35_1.png)
@@ -1500,7 +600,7 @@ plt.show()
     40s     9
     80s     6
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_39_1.png)
@@ -1534,14 +634,14 @@ plt.title('Age differences')
 plt.show()
 ```
 
-    50s    74
-    60s    56
-    40s    44
-    70s    31
+    50s    63
+    60s    54
+    40s    43
+    70s    29
     30s    12
     80s    10
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_43_1.png)
@@ -1575,7 +675,7 @@ plt.title('Age differences')
 plt.show()
 ```
 
-    60s      32
+    60s      31
     70s      26
     50s      19
     40s      14
@@ -1583,7 +683,7 @@ plt.show()
     30s       6
     Teens     1
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_47_1.png)
@@ -1617,15 +717,15 @@ plt.title('Age differences')
 plt.show()
 ```
 
-    40s    57
-    50s    52
-    60s    51
-    70s    25
-    30s    24
-    80s    12
+    40s    55
+    50s    49
+    60s    41
+    70s    23
+    30s    23
+    80s    11
     20s     1
     Name: Age Categorical, dtype: int64
-
+    
 
 
 ![png](DataVisualization_files/DataVisualization_51_1.png)
@@ -1699,7 +799,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
   </thead>
   <tbody>
     <tr>
-      <th>803</th>
+      <th>767</th>
       <td>Economics</td>
       <td>Leonid Hurwicz</td>
       <td>Russia</td>
@@ -1707,7 +807,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
       <td>90</td>
     </tr>
     <tr>
-      <th>881</th>
+      <th>829</th>
       <td>Economics</td>
       <td>Lloyd S. Shapley</td>
       <td>United States of America</td>
@@ -1715,7 +815,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
       <td>89</td>
     </tr>
     <tr>
-      <th>750</th>
+      <th>720</th>
       <td>Physics</td>
       <td>Raymond Davis Jr.</td>
       <td>United States of America</td>
@@ -1723,7 +823,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
       <td>88</td>
     </tr>
     <tr>
-      <th>806</th>
+      <th>770</th>
       <td>Literature</td>
       <td>Doris Lessing</td>
       <td>Persia (Iran)</td>
@@ -1731,7 +831,7 @@ display(OldestWinners[['Category','Full Name','Birth Country','Sex','Age']])
       <td>88</td>
     </tr>
     <tr>
-      <th>379</th>
+      <th>360</th>
       <td>Medicine</td>
       <td>Peyton Rous</td>
       <td>United States of America</td>
@@ -1779,7 +879,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
   </thead>
   <tbody>
     <tr>
-      <th>915</th>
+      <th>856</th>
       <td>Peace</td>
       <td>Malala Yousafzai</td>
       <td>Pakistan</td>
@@ -1787,7 +887,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
       <td>17</td>
     </tr>
     <tr>
-      <th>84</th>
+      <th>82</th>
       <td>Physics</td>
       <td>William Lawrence Bragg</td>
       <td>Australia</td>
@@ -1795,7 +895,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
       <td>25</td>
     </tr>
     <tr>
-      <th>166</th>
+      <th>162</th>
       <td>Physics</td>
       <td>Werner Karl Heisenberg</td>
       <td>Germany</td>
@@ -1803,7 +903,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
       <td>31</td>
     </tr>
     <tr>
-      <th>171</th>
+      <th>167</th>
       <td>Physics</td>
       <td>Paul Adrien Maurice Dirac</td>
       <td>United Kingdom</td>
@@ -1811,7 +911,7 @@ display(YoungestWinner[['Category','Full Name','Birth Country','Sex','Age']])
       <td>31</td>
     </tr>
     <tr>
-      <th>191</th>
+      <th>185</th>
       <td>Physics</td>
       <td>Carl David Anderson</td>
       <td>United States of America</td>
@@ -3148,7 +2248,7 @@ repeat
 
 
 
-## EXTRA: age distribution of nobel prize winners among the years using scatterplot
+## How old are you when you get the prize?
 
 
 ```python
